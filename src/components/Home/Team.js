@@ -1,8 +1,6 @@
 const Team = [
-    {id:"team1",imageSource:"/images/team-img/ankur.jpeg",name:"Ankur Rai",job:"Sales Manager"},
-    {id:"team2",imageSource:"/images/team-img/shivam.jpg",name:"Shivam Soni",job:"Service Advisor"},
-    {id:"team3",imageSource:"/images/team-img/amit.jpg",name:"Amit Singh",job:"Purchasing Officer"},
-    {id:"team4",imageSource:"/images/team-img/piyush.jpg",name:"Piyush Vashistha",job:"Business Analyst"},    
+    {id:"team1",imageSource:"/images/team-img/shivam.png",name:"Shivam Soni",job:"Frontend"},
+    {id:"team2",imageSource:"/images/team-img/love.png",name:"Love Kumar Agrawal",job:"Backend"},
 ]
 
 export default Team;
