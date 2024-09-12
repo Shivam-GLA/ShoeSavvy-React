@@ -3,11 +3,11 @@ import { Link, NavLink } from 'react-router-dom'
 import '../css/navbar.css';
 import { useSelector } from 'react-redux';
 import { account } from '../appwrite/appwriteConfig';
-import {useDispatch} from 'react-redux'
-import {logout} from '../store/authSlice'
+import { useDispatch } from 'react-redux'
+import { logout } from '../store/authSlice'
 import { useNavigate } from 'react-router-dom';
 
- 
+
 function Nav() {
     const logoutnavigate = useNavigate();
     const authStatus = useSelector((state) => state.auth.status)
@@ -26,10 +26,9 @@ function Nav() {
             <div className="navbar">
                 <nav>
                     <div className="left-nav">
-                        <div className="logo">
-                            <h3>ShoeSavvy</h3>
+                        <NavLink className="logo" to="/"><h3>ShoeSavvy</h3>
                             <img src="/images/logo/logo.png" alt="" />
-                        </div>
+                        </NavLink>
                     </div>
                     <ul>
                         <li><NavLink className="navlink" style={({ isActive }) => ({
@@ -59,8 +58,8 @@ function Nav() {
                         })} to="/contact">Contact</NavLink></li>
                     </ul>
                     {authStatus ? <div className="right-nav">
-                    <Link to={'/addtocart'}><img src="/images/logo/shopping.svg" id='cartlogo' alt=""/></Link>    
-                    <button onClick={handleLogout} className='logoutbtn'>Logout</button>
+                        <Link to={'/addtocart'}><img src="/images/logo/shopping.svg" id='cartlogo' alt="" /></Link>
+                        <button onClick={handleLogout} className='logoutbtn'>Logout</button>
                     </div> : <div className="right-nav">
                         <ul>
                             {/* Pass a query parameter indicating signup */}
@@ -68,12 +67,12 @@ function Nav() {
                             {/* Pass a query parameter indicating login */}
                             <li><Link to={{ pathname: '/signup', search: '?form=login' }} className='signuplink'>Login</Link></li>
                         </ul>
-                        </div>}
-                        {/* <img src="/images/logo/search.svg" alt=""/>
+                    </div>}
+                    {/* <img src="/images/logo/search.svg" alt=""/>
                 <img src="/images/logo/shopping.svg" alt=""/> */}
                 </nav>
             </div>
-            
+
         </>
     )
 }
