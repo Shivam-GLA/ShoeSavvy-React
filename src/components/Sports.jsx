@@ -12,7 +12,7 @@ function Sports() {
     const [filterShoe, setFilterShoe] = useState(false);
     const [filterPrice, setFilterPrice] = useState(10000); // Default max price
     const [selectedColor, setSelectedColor] = useState(null);
-    const colors = ['white', 'beige', 'yellow', 'orange', 'black', 'brown', 'pink', 'blue', 'green', 'purple', 'white', 'beige', 'yellow', 'orange', 'black', 'brown', 'pink', 'blue', 'green', 'purple', 'beige', 'yellow', 'orange', 'black',];
+    const colors = ['white', 'beige', 'yellow', 'orange', 'black', 'brown', 'pink', 'blue', 'green', 'purple',];
 
     // Function to toggle sidebar and reset filters
     const toggleSidebar = () => {
