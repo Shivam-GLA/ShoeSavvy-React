@@ -29,19 +29,19 @@ function Home() {
                 <div className="box" id="box-1">
                     <h3>men collections</h3>
                     <Link to={'/men'} className='navlink'>
-                        <button>Explore All <img src="/src/images/shoe-category/arrow-right.svg" alt="" /></button>
+                        <button>Explore All <img src="/images/shoe-category/arrow-right.svg" alt="" /></button>
                     </Link>
                 </div>
                 <div className="box" id="box-2">
                     <h3>women collections</h3>
                     <Link to={'/women'} className='navlink'>
-                        <button>Explore All <img src="/src/images/shoe-category/arrow-right.svg" alt="" /></button>
+                        <button>Explore All <img src="/images/shoe-category/arrow-right.svg" alt="" /></button>
                     </Link>
                 </div>
                 <div className="box" id="box-3">
                     <h3>sports collections</h3>
                     <Link to={'/sports'} className='navlink'>
-                        <button>Explore All <img src="/src/images/shoe-category/arrow-right.svg" alt="" /></button>
+                        <button>Explore All <img src="/images/shoe-category/arrow-right.svg" alt="" /></button>
                     </Link>
                 </div>
             </div>
@@ -58,13 +58,13 @@ function Home() {
                                     <img className="shoe-item-img" src={shoe.image.shoe1} alt={shoe.name} />
                                     <div className="social-icons">
                                         <a href="#" className="icon" onClick={(e) => e.preventDefault()}>
-                                            <img className="icon" src="/src/images/social-icon-img/menu.svg" alt="" />
+                                            <img className="icon" src="/images/social-icon-img/menu.svg" alt="" />
                                         </a>
                                         <a href="#" className="icon" onClick={(e) => e.preventDefault()}>
-                                            <img className="icon" src="/src/images/social-icon-img/search.svg" alt="" />
+                                            <img className="icon" src="/images/social-icon-img/search.svg" alt="" />
                                         </a>
                                         <a href="#" className="icon" onClick={(e) => e.preventDefault()}>
-                                            <img className="icon" src="/src/images/social-icon-img/like.svg" alt="" />
+                                            <img className="icon" src="/images/social-icon-img/like.svg" alt="" />
                                         </a>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ function Home() {
 
             <div id="choice">
                 <div className="box" id="box-1">
-                    <img src="../src/images/bg-img/bg-17.webp" alt="" />
+                    <img src="/images/bg-img/bg-17.webp" alt="" />
                     <div className="info">
                         <h2>Running Shoes</h2>
                         <Link to={'/men'} className='navlink'>
@@ -103,14 +103,14 @@ function Home() {
                     </div>
                 </div>
                 <div className="box" id="box-2">
-                    <img src="../src/images/bg-img/bg-18.webp" alt="" />
+                    <img src="/images/bg-img/bg-18.webp" alt="" />
                     <div className="info">
                         <h2>Basic Collection</h2>
                         <a href="#section-one">shop now<div className="line"></div></a>
                     </div>
                 </div>
                 <div className="box" id="box-3">
-                    <img src="../src/images/bg-img/bg-19.webp" alt="" />
+                    <img src="/images/bg-img/bg-19.webp" alt="" />
                     <div className="info">
                         <h2>Sport Shoes</h2>
                         <Link to={'/sports'} className='navlink'>
@@ -137,17 +137,17 @@ function Home() {
 
             <div id="service">
                 <div className="box" id="box-1">
-                    <img src="../src/images/logo/gift.svg" alt="" />
+                    <img src="/images/logo/gift.svg" alt="" />
                     <h3>free shipping</h3>
                     <h4>For all order over $15</h4>
                 </div>
                 <div className="box" id="box-2">
-                    <img src="../src/images/logo/truck.svg" alt="" />
+                    <img src="/images/logo/truck.svg" alt="" />
                     <h3>delivery on time</h3>
                     <h4>Definition and measurement</h4>
                 </div>
                 <div className="box" id="box-3">
-                    <img src="../src/images/logo/secure.svg" alt="" />
+                    <img src="/images/logo/secure.svg" alt="" />
                     <h3>secure pament</h3>
                     <h4>100% secure payment</h4>
                 </div>
@@ -189,42 +189,42 @@ function Home() {
                 <div id="instra">
                     <div className="box" id="box-1">
                         <div className="bg-back">
-                            <img src="../src/images/instra-img/img-1.webp" alt="" />
+                            <img src="/images/instra-img/img-1.webp" alt="" />
                         </div>
                         <div className="bg-upper">
-                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="../src/images/social-icon-img/instagram.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
                         </div>
                     </div>
                     <div className="box" id="box-2">
                         <div className="bg-back">
-                            <img src="../src/images/instra-img/img-2.webp" alt="" />
+                            <img src="/images/instra-img/img-2.webp" alt="" />
                         </div>
                         <div className="bg-upper">
-                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="../src/images/social-icon-img/instagram.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
                         </div>
                     </div>
                     <div className="box" id="box-3">
                         <div className="bg-back">
-                            <img src="../src/images/instra-img/img-3.webp" alt="" />
+                            <img src="/images/instra-img/img-3.webp" alt="" />
                         </div>
                         <div className="bg-upper">
-                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="../src/images/social-icon-img/instagram.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
                         </div>
                     </div>
                     <div className="box" id="box-4">
                         <div className="bg-back">
-                            <img src="../src/images/instra-img/img-4.webp" alt="" />
+                            <img src="/images/instra-img/img-4.webp" alt="" />
                         </div>
                         <div className="bg-upper">
-                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="../src/images/social-icon-img/instagram.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
                         </div>
                     </div>
                     <div className="box" id="box-5">
                         <div className="bg-back">
-                            <img src="../src/images/instra-img/img-5.webp" alt="" />
+                            <img src="/images/instra-img/img-5.webp" alt="" />
                         </div>
                         <div className="bg-upper">
-                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="../src/images/social-icon-img/instagram.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/web.cbum/" target='_blank'><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
                         </div>
                     </div>
                 </div>

@@ -58,10 +58,10 @@ function Contact() {
               <h3>{member.name}</h3>
               <p>{member.job}</p>
               <div className="social-icons">
-                <a href="#" className="icon"><img src="/src/images/social-icon-img/facebook-f.svg" alt="" /></a>
-                <a href="#" className="icon"><img src="/src/images/social-icon-img/twitter.svg" alt="" /></a>
-                <a href="#" className="icon"><img src="/src/images/social-icon-img/instagram.svg" alt="" /></a>
-                <a href="#" className="icon"><img src="/src/images/social-icon-img/youtube.svg" alt="" /></a>
+                <a href="#" className="icon"><img src="/images/social-icon-img/facebook-f.svg" alt="" /></a>
+                <a href="#" className="icon"><img src="/images/social-icon-img/twitter.svg" alt="" /></a>
+                <a href="#" className="icon"><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
+                <a href="#" className="icon"><img src="/images/social-icon-img/youtube.svg" alt="" /></a>
               </div>
             </div>
           ))}
@@ -88,7 +88,7 @@ function Contact() {
         <div className="video">
           <a href="https://maps.app.goo.gl/JuqaL2iE5RBbn3EW8" target="_blank">
             <video autoPlay muted loop>
-              <source src='../src/video/gla.mp4' />
+              <source src='video/gla.mp4' />
             </video>
           </a>
         </div>

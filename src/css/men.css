@@ -25,7 +25,7 @@
 }
 
 #Mensection-one #box-1::after {
-    background: rgba(0, 0, 0, 0.1) url("src/images/bg-img/bg-13.jpg")no-repeat top center/cover;
+    background: rgba(0, 0, 0, 0.1) url("/images/bg-img/bg-13.jpg")no-repeat top center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -38,7 +38,7 @@
 }
 
 #Mensection-one #box-2::after {
-    background: rgba(0, 0, 0, 0.1) url("src/images/bg-img/bg-16.jpg")no-repeat top center/cover;
+    background: rgba(0, 0, 0, 0.1) url("/images/bg-img/bg-16.jpg")no-repeat top center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -51,7 +51,7 @@
 }
 
 #Mensection-one #box-3::after {
-    background: rgba(0, 0, 0, 0.1) url("src/images/bg-img/bg-15.jpg")no-repeat top center/cover;
+    background: rgba(0, 0, 0, 0.1) url("/images/bg-img/bg-15.jpg")no-repeat top center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
